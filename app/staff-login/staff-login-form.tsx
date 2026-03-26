@@ -10,7 +10,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-export function StaffLogInForm() {
+export function StaffLoginForm() {
     return (
         <div className="flex items-center justify-center min-h-svh">
             <section className="flex flex-col items-center justify-center w-md rounded-lg">

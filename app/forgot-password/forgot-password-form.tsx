@@ -16,7 +16,7 @@ export function ForgotPasswordForm() {
             <section className="flex flex-col items-center justify-center w-md rounded-lg">
                 <Image className="mb-2 rounded-sm" src="/images/logo/1.png" alt="Logo Pet House" width={60} height={60} />
                 <h2 className="text-2xl font-semibold mb-2">ลืมรหัสผ่าน</h2>
-                <p className="text-sm mb-5 text-center text-gray-500">กรอกอีเมลของคุณเพื่อรับลิงก์รีเซ็ตรหัสผ่าน</p>
+                <p className="text-sm mb-5 text-center text-muted-foreground">กรอกอีเมลของคุณเพื่อรับลิงก์รีเซ็ตรหัสผ่าน</p>
 
                 <form className="flex flex-col items-center w-full">
                     <FieldGroup className="w-xs gap-3">
