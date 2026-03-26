@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   const data = [
     {
@@ -28,6 +30,9 @@ export default function Home() {
             <p>{item.price}</p>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center">
+        <Button className="font-bold p-4 mt-5" size="lg" variant="default">Button</Button>
       </div>
     </div>
   );
