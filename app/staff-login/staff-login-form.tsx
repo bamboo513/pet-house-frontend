@@ -14,8 +14,9 @@ export function StaffLoginForm() {
     return (
         <div className="flex items-center justify-center min-h-svh">
             <section className="flex flex-col items-center justify-center w-md rounded-lg">
-                <Image className="mb-2 rounded-sm" src="/images/logo/1.png" alt="Logo Pet House" width={70} height={70} />
-                <h2 className="text-2xl font-bold mb-5">เข้าสู่ระบบ</h2>
+                <Image className="mb-2 rounded-sm" src="/images/logo/1.png" alt="Logo Pet House" width={60} height={60} />
+                <h1 className="text-2xl font-bold mb-2">Pet House</h1>
+                <h2 className="text-lg font-semibold mb-5">เข้าสู่ระบบสำหรับพนักงาน</h2>
                 <form className="flex flex-col items-center w-full">
                     <FieldGroup className="w-xs gap-3">
                         <Field>
@@ -23,6 +24,7 @@ export function StaffLoginForm() {
                             <Input
                                 className="py-5 text-sm"
                                 id="email"
+                                name="email"
                                 type="email"
                                 placeholder="name@example.com"
                                 autoComplete="email"
@@ -33,8 +35,9 @@ export function StaffLoginForm() {
                             <FieldLabel htmlFor="password" className="text-sm">รหัสผ่าน</FieldLabel>
                             <Input
                                 className="py-5 text-sm"
-                                type="password"
                                 id="password"
+                                name="password"
+                                type="password"
                                 placeholder="รหัสผ่าน"
                                 autoComplete="current-password"
                             />
